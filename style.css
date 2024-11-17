@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;    
     color: #303030;
 }
 
@@ -43,7 +43,7 @@ header span {
 
 .main-text {
     /* Стили для текста в первой секции */
-    font-weight: 400;
+    
     font-size: 18px;
     color: #303030;
 }
@@ -66,7 +66,7 @@ select {
     /* Стили для выпадающего списка */   
     width: 150px;
     height: 36px;
-    font-weight: 400;
+    
     font-size: 16px;
     color: #303030;
     background-image: url(./assets/images/ep_arrow-down.svg);
@@ -88,7 +88,7 @@ select {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
     padding: 0px 20px;    
-    font-weight: 400;
+    
     font-size: 16px;
     color: #303030;
 }
@@ -101,7 +101,7 @@ select {
 
 .label {
     /* Стили для подписей чекбоксов */    
-    font-weight: 400;
+    
     font-size: 16px;
     color: #303030;
 
@@ -111,6 +111,7 @@ select {
     /* Стили для односточного поля ввода текста */
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
+    font-size: 16px;
     width: 330px;
     height: 36px;
     padding: 8px 12px;    
@@ -137,7 +138,7 @@ table {
     /* Стили для таблицы */
     border: 1px solid #95a1bb;
     border-collapse: collapse;
-    font-weight: 400;
+    
     font-size: 14px;
     color: #303030;
 
@@ -153,7 +154,7 @@ footer {
     /* Стили для футера */
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
-    font-weight: 400;
+    
     font-size: 14px;
     color: #2965f1;
 }
