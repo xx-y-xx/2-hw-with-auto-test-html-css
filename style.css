@@ -73,6 +73,7 @@ select {
     background-repeat: no-repeat;
     appearance: none;
     background-position: right 0 top 50%;
+    padding: 9px 0 8px 12px;
 }
 
 .section-title {
@@ -86,7 +87,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
-    padding:0 0 0 20px;/*padding-left: 20px ;*/    
+    padding: 0px 20px;    
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -95,7 +96,7 @@ select {
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     width: 476px;
-    padding: 0 0 0 20px;/*странная ЗАПИЬС*/
+    padding: 0 20px;
 }
 
 .label {
@@ -137,7 +138,7 @@ table {
     border: 1px solid #95a1bb;
     border-collapse: collapse;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;/* Моя СТРАННАЯ ЗАМЕНА С 14 на 16*/
     color: #303030;
 
 
@@ -145,7 +146,7 @@ table {
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 11px 0 12px 15px;
+    padding: 12px 15px;
 }
 
 footer {
