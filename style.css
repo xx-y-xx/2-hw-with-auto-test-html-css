@@ -113,7 +113,7 @@ select {
     border-radius: 5px;
     width: 330px;
     height: 36px;
-    padding: 9px 0 8px 12px;    
+    padding: 8px 12px;    
 }
 
 .btn {
@@ -138,7 +138,7 @@ table {
     border: 1px solid #95a1bb;
     border-collapse: collapse;
     font-weight: 400;
-    font-size: 16px;/* Моя СТРАННАЯ ЗАМЕНА С 14 на 16*/
+    font-size: 14px;
     color: #303030;
 
 
